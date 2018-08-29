@@ -2,4 +2,4 @@
 A Javascript Framework for Windows Errors
 
 # Demo
-https://mralexand0r.github.io/WindowsErrror.js/index.html
+https://mralexand0r.github.io/WindowsErrror.js/demo/index.html
