@@ -1,0 +1,72 @@
+.win2000-error {
+    position: absolute;
+    width: 400px;
+    height: 160px;
+    background-color: #d4d0c7;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #f1f0ed #636059 #636059 #f1f0ed;
+    padding-right: 2px;
+    z-index: 0;
+    user-select: none;
+}
+
+.win2000-error>header {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    padding-left: 1%;
+    width: 99%;
+    background: #0a236a;
+    background: -moz-linear-gradient(left, #0a236a 0%, #5c80b3 30%, #ffffff 100%);
+    background: -webkit-linear-gradient(left, #0a236a 0%, #5c80b3 30%, #ffffff 100%);
+    background: linear-gradient(to right, #0a236a 0%, #5c80b3 30%, #ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0a236a', endColorstr='#ffffff', GradientType=1);
+    color: white;
+    font-family: Tahoma;
+    cursor: default;
+}
+
+.win2000-error>.message>p {
+    align-items: center;
+    justify-content: center;
+}
+
+.win2000-error>.message {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.win2000-error>.message>img {
+    margin-right: 20px;
+}
+
+.win2000-error>.button-container {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: center
+}
+
+.win2000-error>.button-container>button {
+    height: 30px;
+    width: 70px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #f1f0ed #636059 #636059 #f1f0ed;
+}
+
+.win2000-error>.button-container>button:active {
+    height: 30px;
+    width: 70px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #636059 #f1f0ed #f1f0ed #636059;
+}
+
+button:focus {
+    outline: 0;
+}
