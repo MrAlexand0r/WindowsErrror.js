@@ -1,4 +1,4 @@
-var error = new WindowsError('../res/ding.wav');
+var error = new WindowsError('../res/chord.wav');
 
 window.onload = function () {
     document.getElementById("createError").addEventListener('mousedown', () => {
