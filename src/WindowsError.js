@@ -1,5 +1,8 @@
-function WindowsError() {
+function WindowsError(soundLocation) {
     let count = 0;
+
+    if (soundLocation)
+        var errorSound = new Audio(soundLocation);
 
     let x = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth,
         y = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
@@ -21,6 +24,8 @@ function WindowsError() {
         error.addEventListener('mousedown', drag);
         error.addEventListener('mouseup', end);
         document.body.appendChild(error);
+        if (errorSound)
+            errorSound.cloneNode(true).play();
         count++;
     };
     var moving;
