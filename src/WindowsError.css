@@ -32,6 +32,10 @@
     justify-content: center;
 }
 
+.win2000-error>.message>img {
+    pointer-events: none;
+}
+
 .win2000-error>.message {
     height: 40%;
     width: 100%;
